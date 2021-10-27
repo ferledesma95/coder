@@ -1,0 +1,39 @@
+/*Header*/
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+.navMain {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px 0;
+    background: linear-gradient(pink, rgb(59, 53, 53));
+}
+.logo {
+    width: 80px;
+}
+.navMain ul.navMenu{
+    flex: 1;
+    margin-left: 20px;
+}
+.navMain ul {
+    display: flex;
+    li {
+        padding: 20px;
+        a {
+            padding: 2px;
+            &:hover {
+                border-bottom: 2px solid #ffffff;
+            }
+        }
+    }
+}    
+
+hr {
+    margin: 10px 0;
+}
