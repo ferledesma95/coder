@@ -12,38 +12,20 @@ $letra-clara: #616161;
 }
 .footerContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     align-items: flex-start;
     justify-content: center;
     ul {
         margin: 0 auto;
-    }
-}
-.redesl {
-    margin: 50px;
-    p {
-      text-align: center;
-      font-size: 30px;
-      margin-bottom: 20px;
-  }
-    
-  }
-  .links {
-    display: flex;
-    flex-direction: wrap;
-    align-items: center;
-    justify-content: center;
-    a{
-        margin: 0 30px;
         img {
             width: 2rem;
         }
     }
-  }
+}
  
 .autor {
-    background: $color-oscuro;
+    background: black;
     color: $letra-clara;
     font-size: 12px;
     padding: 20px 0;

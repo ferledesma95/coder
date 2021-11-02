@@ -1,27 +1,23 @@
 /*Header*/
 
 .contenedor {
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
-.navMain {
+.navbar {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     padding: 10px 0;
-    background: linear-gradient(pink, rgb(59, 53, 53));
 }
 .logo {
     width: 80px;
 }
-.navMain ul.navMenu{
-    flex: 1;
-    margin-left: 20px;
-}
-.navMain ul {
+
+.navbar ul {
     display: flex;
     li {
         padding: 20px;
