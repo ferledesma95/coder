@@ -4,15 +4,15 @@ $letra-clara: #616161;
 .footerLinks {
     background: $color-oscuro;
     color: $letra-clara;
-    font-size: 12px;
     padding: 35px 0;
     li {
+        font-size: 20px;
         line-height: 2.8;
     }
 }
 .footerContainer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     align-items: flex-start;
     justify-content: center;
@@ -23,13 +23,15 @@ $letra-clara: #616161;
         }
     }
 }
+
+
  
 .autor {
     background: black;
     color: $letra-clara;
-    font-size: 12px;
-    padding: 20px 0;
+    font-size: 8px;
+    padding: 5px 0;
     text-align: center;
     font-size: 1rem;
-    padding-bottom: 20px;
+
   }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear cuenta</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <!--Link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <!-- Font oswald -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <!-- Font awesome -->
@@ -14,40 +16,44 @@
     <link rel="icon" href="img/favicon.png" type="imagen/ico">
 </head>
 <body>
-    <div class="contenedor">
-        <header>
-            <header>
-                <div class="navMain">
-                    <a href="index.html"><img src="img/logo-libreria.jpeg" alt="Logo Libreria Mary" class="logo"></a>
-                    <ul class="navMenu" >
-                        <li>
-                            <a href="libreria.html">Librería</a>
-                        </li>
-                        <li>
-                            <a href="cotillon.html">Cotillón</a>
-                        </li>
-                        <li>
-                            <a href="regaleria.html">Regalería</a>
-                        </li>
-                        <li>
-                            <a href="tecnologia.html">Tecnología</a>
-                        </li>
-                        <li>
-                            <a href="conctacto.html">Contacto</a>
-                        </li>
-                        <li>
-                            <a href="cuenta.html">Crear cuenta</a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-search"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <hr>
-        </header>
-        <hr>
+  <header>
+    <div class="navMain">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ef8f41;">
+        <div class="container-fluid">
+          <a href="index.html"><img src="img/logo-libreria.jpeg" alt="Logo Libreria Mary" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"  id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="libreria.html">Libreria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cotillon.html">Cotillon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="regaleria.html">Regaleria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tecnologia.html">Tecnologia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="conctacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cuenta.html">Crear cuenta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iniciarSesion.html">Iniciar Sesion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <hr>
+  </header>
+        
         <main>
             <H1>Registrarse en el sitio</H1>
             <form action="">
@@ -93,95 +99,100 @@
         </main>
         <hr>
         <footer>
-            <div class="redes">
-                <p>Siguenos en nuestras redes sociales</p>
-            </div>
-            <div class="links">
-              <ul>
+          <div class="footerLinks">
+              <div class="footerContainer">
+                <ul>
                   <li>
-                      <a href="#"><img src="img/face.gif" alt="Logo de facebook" class="redes"></a>
+                    <a>
+                      <h3>HORARIO DE ATENCIÓN</h3>
+                    </a>
                   </li>
                   <li>
-                      <a href="#"><img src="img/insta.gif" alt="Logo de Instagram" class="redes"></a>
+                    <a>Horario de atención en locales:
+                      Lunes a viernes de 9.30 a 18.30hs.
+                      Sábados de 9 a 13hs.</a>
                   </li>
                   <li>
-                      <a href="#"><img src="img/mail.gif" alt="Correo electronico" class="redes"></a>
+                      <a>Retiro de pedidos online:
+                          Lunes a viernes de 10 a 18hs.
+                          Sábados de 9 a 13hs.</a>
+                    </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a>
+                      <h3>ESTAMOS EN:</h3>
+                    </a>
                   </li>
-              </ul>
-            <div class="footerLinks">
-                <div class="footerContainer">
-                  <ul>
-                    <li>
-                      <a>
-                        <h3>HORARIO DE ATENCIÓN</h3>
-                      </a>
-                    </li>
-                    <li>
-                      <a >Horario de atención en locales:
-                        Lunes a viernes de 9.30 a 18.30hs.
-                        Sábados de 9 a 13hs.</a>
-                    </li>
-                    <li>
-                        <a >Retiro de pedidos online:
-                            Lunes a viernes de 10 a 18hs.
-                            Sábados de 9 a 13hs.</a>
-                      </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a>
-                        <h3>ESTAMOS EN:</h3>
-                      </a>
-                    </li>
-                    <li>
-                      <a >Av. Corrientes Cazadores 4800
-                        (Librería)</a>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a>
-                        <h3>CONTACTO:</h3>
-                      </a>
-                    </li>
-                    <li>
-                      <a>Atención telefónica:
-                        011 4872-2164</a>
-                    </li>
-                    <li>
-                      <a>Por e-mail:
-                        info@libreriamary.com.ar</a>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a>
-                        <h3>METODOS DE PAGO</h3>
-                      </a>
-                    </li>
-                    <li>
-                        <a>EFECTIVO</a>
-                    </li>
-                    <li>
-                        <a>TRANSFERENCIA BANCARIA</a>
-                    </li>
-                    <li>
-                        <a>TARJETAS DE CRÉDITO</a>
-                    </li>
-                    <li>
-                        <a>TARJETAS DE DÉBITO</a>
-                    </li>
-                  </ul>
-                </div>
+                  <li>
+                    <a>Av. Corrientes Cazadores 4800
+                      (Librería)</a>
+                  </li>
+                  <li>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.279997102022!2d-58.80535273052723!3d-27.48751759572888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b0aa95cfa2d%3A0x31297573c6d84da7!2sPres.%20Nicol%C3%A1s%20Avellaneda%203857%2C%20W3408%20Corrientes!5e0!3m2!1ses-419!2sar!4v1686148407234!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a>
+                      <h3>CONTACTO:</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a>Atención telefónica:
+                      011 4872-2164</a>
+                  </li>
+                  <li>
+                    <a>Por e-mail:
+                      info@libreriamary.com.ar</a>
+                  </li>
+                  <li>
+                    <a>
+                      <h3>Redes sociales</h3>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/face.gif" alt="Logo de facebook" class="redes"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/insta.gif" alt="Logo de Instagram" class="redes"></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="img/mail.gif" alt="Correo electronico" class="redes"></a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a>
+                      <h3>METODOS DE PAGOS</h3>
+                    </a>
+                  </li>
+                  <li>
+                      <a>EFECTIVO</a>
+                  </li>
+                  <li>
+                      <a>TRANSFERENCIA BANCARIA</a>
+                  </li>
+                  <li>
+                      <a>TARJETAS DE CRÉDITO</a>
+                  </li>
+                  <li>
+                      <a>TARJETAS DE DÉBITO</a>
+                  </li>
+                </ul>
               </div>
-               
             </div>
-              <div class="autor">
-                <h3>Fernando Ledesma Copyright</h3>
-              </div>
             
-            
-        </footer>
+
+          </div>
+            <div class="autor">
+              <h3>Fernando Ledesma Copyright</h3>
+            </div>
+          
+          
+      </footer>
     </div>
 </body>
 </html>
